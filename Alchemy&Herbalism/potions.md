@@ -7,7 +7,8 @@ As an aspiring druid and guild artisan you combine the natural expertise and the
 
 ### Plants and Herbs
 Searching for rare plants and herbs requires one hour of free time and an natural environment featuring plants. For every hour you spend procuring, you roll a d4 on the *Procuring Circumstances Table* to see how many components can be found. Add any relevant modifiers from the *Procuring Modifiers Table*.  
-You then roll d4 + d6 + d8 on the *Ingredient Effects and Rarity Table* to see what components you are able to find. Your decide which version, A or B, to use. Note that this choice is permanent for the region you are in.
+You then roll d4 + d6 + d8 on the *Ingredient Effects and Rarity Table* to see what components you are able to find. You decide which version, A or B, to use. Note that this choice is permanent for the region you are in.
+In addition you are always able to find some common herbs. Choose herbs from the *Common Herbs Table* totalling 5 +/- twice the according environment modifier from the *Procuring Modifiers Table*.
 
 ### Poisons from Creatures
 You can attempt to harvest ingredients from a poisonous creature like a snake or wyvern. The creature must be incapacitated or dead, and the harvesting requires 1d6 minutes followed by a DC 18 Intelligence (Nature) check to harvest enough material for a single vial. Should you fail this check you are unable to extract any poison. If you fail this check by 5 or more, you rupture the creature's glands and are subject to the poison's effects. The poison extracted from a shapeshifted creature vanishes when the creature re-assumes its true form.  
@@ -39,17 +40,36 @@ A poison can also be extracted from a creature contracting a highly contagious d
 | 1  | 0|- |
 | 2-3| 1|- |
 | 4  | 2|- |
-| 5  | 3|- |
-| 6-7| 3|Ingredient has an additional property specific to the environment it was found in.|
-| >8 | 4|See previous effect.|
-| Special | 2| Choose two ingredients instead of rolling. Includes previous effects. |
+| 5  | 3|Choose an additional herb from the *Uncommon Herbs Table*.|
+| 6-7| 3|Previous positive effect + ingredient has an additional property specific to the environment it was found in.|
+| >8 | 4|Previous positive effects.|
+| Special | 2|Previous positive effects + choose two ingredients instead of rolling.|
 
 
+##### Common Herbs
+| Ingredient | Effect | DC |
+|:----|:-------------|:--|
+| Fasching Blume | Evocates serenity and takes away inhibition. | +1|
+| Fönixgras | Stimulating effect. Activates the circulatory system. When used regularly it slows aging. | +1|
+| Klauklee 	| Weakens the taste of your potion making it more digestible. | +0|
+| Königslauch (stem)	| Alleviates pain and improves wound healing. | +1|
+| Schimmerklee | Narcotizing effect. Useful for ointments and syringes for local narcotization or tea as sleep aid. | +1|
+| Sonnige Blume (leaves) | Inhibits bleeding and imcreases healing of wounds and fractures. | +2|
+
+
+##### Uncommon Herbs
+| Ingredient | Effect | DC |
+|:----|:-------------|:--|
+| Lechwurzel	| Improves concentration and sharpens senses for a short duration. Roll a d4 and add the result on any intelligence, dexterity and charisma check for the duration of 1 minute. | +3|
+| Sonnige Blume (blossom) | Puts in a condition of peacefulness and happiness for 1d6+2 hours. Afterwards the diminishing effect will result in a deep sadness if not stopped by special anti-herbs. | +4|
+| Highland-Pilz | Eating a piece of the raw mushroom will result in a state of intoxication. However, when put into ice water for 2 days you have a weakend effect when drinking the water but it increases (Re-)generation of bones and muscles. | +3|
+
+\page
 
 ##### Ingredient Effects and Rarity, A
 | d4 + d6 + d8 | Ingredient | Effect | DC |
 |:----:|:-------------|:--|:--|
-|3 or 18 	| Phönixkraut 	| Revives a creature that died no longer than 1 turn ago. Stable. | +10|
+|3 or 18 	| Fönixkraut 	| Revives a creature that died no longer than 1 turn ago. Stable. | +10|
 |4 			| Protzpflanz	| Increases AC by +5, strength modifier by +5 and dexterity modifier by +3 for 1d6+2 rounds. |+9|
 |5			| Drachenkraut	| User rolls on the *Wild Magic Surge Table* (PH p.104) twice and picks one effect.|+4|
 |6			| Lochlichen	| Lichen grows on the user's skin for 1d4+2 hours. Increases AC by 1. Stealth checks in woodland terrain automatically succeed.| +6|
@@ -58,31 +78,30 @@ A poison can also be extracted from a creature contracting a highly contagious d
 |9			| Bloodroot 	| Potion affects user instantly when entering their bloodstream|+3|
 |10-12		| Wyrmtounge	| Stabilizes the potion for 3d4 days. Needed for all potions. | 7|
 |13			| Lampenwurz	| User and potion shed bright light in a 15-foot radius. User grants combat advantage| +4|
-|14			| Verbrennnessel| Potion becomes a contact poison, affecting the user on touch.| +6| 
+|14			| Verbrennnessel| Potion becomes a contact poison, affecting the user on touch.| +6|
 |15			| Truthseeker	| User makes a Wisdom saving throw against the Craft Roll. On a failed save the user is compelled to tell the truth for 1d4 hours.| +8|
-|16			| Kingsdeath	| Deals 10d10 or 35 necrotic damage, whichever is higher. Stable.|+12|
+|16			| Königslauch (blossom)	| Leads very quickly within 30 seconds to extreme muscle hardening resulting in failure of breathing. The poison is activated when getting in contact with gastric acid. Stable.|+12|
 |17			| Mondlichtblume| Increases one ability score of the users choice by 1 (ability score can't be increased beyond 20). Stable.|+3|
 
-\page
-
+```
+```
 ##### Ingredient Effects and Rarity, B
 | d4 + d6 + d8 | Ingredient | Effect | DC |
 |:----:|:-------------|:--|:--|
-|3 or 18 	| Phönixkraut 	| Revives a creature that died no longer than 1 turn ago. Stable. | +10|
+|3 or 18 	| Fönixkraut 	| Revives a creature that died no longer than 1 turn ago. Stable. | +10|
 |4 or 17			| Polymorphin	| User's hitpoint maximum and hitpoints increases by 35 for 4d4 minutes. When the effect wears off, the user's hitpoint maximum reverts to its previous value and the user makes a DC 15 Constitution saving throw. On a failed save, the user becomes addicted to the potion and takes 5d8 necrotic damage. 4 uses. | +4|
 |5 or 15 	| Bandagenblume | Restores 2d4 hitpoints. | +3|
 |6			| Markknospen	| Translucent cherry blossom petals appear behind the user when walking. A creature must succeed a DC 17 Wisdom (Perception) check to notice the trail of petals (knowledge about the pedals' existence grants advantage on this check).
 |7			| Curatian		| Decreases saving throw DCs against a single disease by 5.| +4|
-|8			| Everburn		| User sneezes and exhales fire in 15-feet cone. Each creature in the cone must make a Dexterity saving throw. On a faild save, it takes 2d6+4 fire damage and half as much damage on a successful one. 
+|8			| Everburn		| User sneezes and exhales fire in 15-feet cone. Each creature in the cone must make a Dexterity saving throw. On a faild save, it takes 2d6+4 fire damage and half as much damage on a successful one.
 |9			| Evenvein		| Prolongs the time a potion can be used by +1d4 days. | +1|
 |10-11		| Wyrmtounge	| Stabilizes the potion for 3d4 days. Needed for all potions. | 7|
-|12			| Risbelknoten  | Mixed with a poison or disease the resulting potion becomes its antidote or vaccine. | +7| 
+|12			| Risbelknoten  | Mixed with a poison or disease the resulting potion becomes its antidote or vaccine. | +7|
 |13			| Großkroz		| Increases the volume of the user's voice by 30 db. | +4|
-|14			| Senium		| Increases the DC to identify the potion and its effects by 15. | +7| 
+|14			| Senium		| Increases the DC to identify the potion and its effects by 15. | +7|
 |16			| Waldwurz		| Grants superior clarity of mind for 2d4 minutes. User makes Intelligence and Wisdom checks with advantage and cannot be charmed, mind-controlled or otherwise affected by psychic abilities (including psychic damage). Upon wearing off, the user makes a DC 15 Wisdom saving throw. On a failed save the user suffers from an effect from the *Long-Term Madness table* (DMG p.260). | +8 |
 
-```
-```
+\page
 
 <div class='footnote'>BREWING POTIONS - Max Pernklau</div>
 
@@ -105,8 +124,10 @@ Brewing potions requires *Alchemist's supplies* and a cauldron supplied by heat 
 
 ### Mixing ingredients
 All ingredients can be matched and mixed to achieve the desired effects. Add the DCs of the components used to calculate the Craft DC. Mixing potions post-brewing is subject to the *Mixing Potions* Rule (DMG p.140).  
-After spending (Craft DC)/10 hours to brew the potion, make an Intelligence Check (add your proficiency bonus) against the Craft DC. On a successful check you create one vial of the potion. On a failure, all ingredients are lost. On a failure by 5 or more, roll on the *Brewing Mishap Table*. Should you roll a 20 on the d20 used to make the check, you are able to stretch the ingredients and make 2 vials.
+After spending (Craft DC)/10 hours to brew the potion, make an Intelligence and a Wisdom Check (add your proficiency bonus to both) and use the average result against the Craft DC. On a successful check you create one vial of the potion. On a failure, all ingredients are lost. On a failure by 5 or more, roll on the *Brewing Mishap Table*. Should you roll a 20 on the d20 used to make the check, you are able to stretch the ingredients and make 2 vials.
 
+```
+```
 ##### Brewing Mishap
 | d6 | Effect |
 |:-|:-------------|
@@ -119,7 +140,6 @@ After spending (Craft DC)/10 hours to brew the potion, make an Intelligence Chec
 
 
 
-\page
 
 ### Shelf Life
 Potions made using Wyrmtounge are stable for 3d4 days, after which they start to break down and decay. Potions with the stable property retain their effects for one year or longer.
